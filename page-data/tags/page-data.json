@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tags-query-tsx",
     "path": "/tags",
-    "result": {"data":{"allPost":{"group":[{"fieldValue":"Blog","totalCount":2},{"fieldValue":"Dark Arts","totalCount":1},{"fieldValue":"Gatsby","totalCount":2},{"fieldValue":"Highlight","totalCount":1},{"fieldValue":"Novel","totalCount":2},{"fieldValue":"Tutorial","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allPost":{"group":[{"fieldValue":"Blog","totalCount":3},{"fieldValue":"Gatsby","totalCount":3}]}},"pageContext":{}},
     "staticQueryHashes": ["2744905544","318001574","3194043079"]}
