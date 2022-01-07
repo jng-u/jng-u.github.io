@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tags-query-tsx",
     "path": "/tags",
-    "result": {"data":{"allPost":{"group":[{"fieldValue":"Blog","totalCount":2},{"fieldValue":"Gatsby","totalCount":2},{"fieldValue":"SLAM","totalCount":1},{"fieldValue":"Visual Odometry","totalCount":1},{"fieldValue":"Visual Odometry Tutorial","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allPost":{"group":[{"fieldValue":"Blog","totalCount":2},{"fieldValue":"Gatsby","totalCount":2},{"fieldValue":"SLAM","totalCount":1},{"fieldValue":"Visual Odometry","totalCount":2},{"fieldValue":"Visual Odometry Tutorial","totalCount":1},{"fieldValue":"블로그 리뷰","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["2744905544","318001574","3194043079"]}
