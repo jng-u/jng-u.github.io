@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tag-query-tsx",
+    "path": "/tags/imu-preintegration",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/imu-preintegration","title":"IMU preintegration","date":"2022.01.16.","excerpt":"where the operator   applies   for poses, and a normal subtraction for other components.","description":null,"tags":[{"name":"Visual Odometry","slug":"visual-odometry"},{"name":"IMU preintegration","slug":"imu-preintegration"}]}]}},"pageContext":{"slug":"imu-preintegration","name":"IMU preintegration","formatString":"YYYY.MM.DD."}},
+    "staticQueryHashes": ["2744905544","318001574","3194043079"]}
