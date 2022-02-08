@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tag-query-tsx",
+    "path": "/tags/ubuntu",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/tmux-세팅","title":"tmux 세팅","date":"2022.02.06.","excerpt":"ROS를 이용해 개발을 하면서 터미널 창을 좀 더 자유롭게 사용하기 위해 tmux…","description":null,"tags":[{"name":"Ubuntu","slug":"ubuntu"},{"name":"tmux","slug":"tmux"}]}]}},"pageContext":{"slug":"ubuntu","name":"Ubuntu","formatString":"YYYY.MM.DD."}},
+    "staticQueryHashes": ["2744905544","318001574","3194043079"]}
