@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tag-query-tsx",
+    "path": "/tags/open-cv",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/convert-yuv-420-888-to-rgb-in-android","title":"convert YUV_420_888 to RGB in Android","date":"2022.06.25.","excerpt":"문제 Android jni를 이용해서 카메라 데이터를 C++ OpenCV로 처리해주는 작업을 하는데 이미지가 아래와 같이 초록색 화면으로 나오는 것을 확인했다.\n 원래 사용한 방법 원래는 아래의 코드를 사용해 변환하였다.   그러나 내 핸드폰 기종(S…","description":null,"tags":[{"name":"OpenCV","slug":"open-cv"},{"name":"Android","slug":"android"}]}]}},"pageContext":{"slug":"open-cv","name":"OpenCV","formatString":"YYYY.MM.DD."}},
+    "staticQueryHashes": ["2744905544","318001574","3194043079"]}
