@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-lekoarts-gatsby-theme-minimal-blog-core-templates-tag-query-tsx",
     "path": "/tags/vulkan",
-    "result": {"data":{"allPost":{"nodes":[{"slug":"/vulkan-기본-코드","title":"Vulkan 기본 코드","date":"2022.07.02.","excerpt":"","description":null,"tags":[{"name":"Vulkan","slug":"vulkan"},{"name":"C++","slug":"c"}]},{"slug":"/ubuntu-20-04-vulkan-설치","title":"Ubuntu 20.04 Vulkan 설치","date":"2022.07.01.","excerpt":"설치 driver 설치 sdk 설치 설치 확인 기타 reference","description":null,"tags":[{"name":"Vulkan","slug":"vulkan"},{"name":"C++","slug":"c"}]}]}},"pageContext":{"slug":"vulkan","name":"Vulkan","formatString":"YYYY.MM.DD."}},
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/vulkan-base-code","title":"Vulkan base code","date":"2022.07.02.","excerpt":"init : ","description":null,"tags":[{"name":"Vulkan","slug":"vulkan"},{"name":"C++","slug":"c"}]},{"slug":"/ubuntu-20-04-vulkan-설치","title":"Ubuntu 20.04 Vulkan 설치","date":"2022.07.01.","excerpt":"설치 driver 설치 sdk 설치 설치 확인 기타 reference","description":null,"tags":[{"name":"Vulkan","slug":"vulkan"},{"name":"C++","slug":"c"}]}]}},"pageContext":{"slug":"vulkan","name":"Vulkan","formatString":"YYYY.MM.DD."}},
     "staticQueryHashes": ["2744905544","318001574","3194043079"]}
