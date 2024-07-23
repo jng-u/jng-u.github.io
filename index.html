@@ -3,14 +3,284 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" type="text/css" >
+    <title>JNGU BLOG</title>
 </head>
 
 <body>
+    <div class="container">
+    <nav>
+    <ul>
+        <li><strong> JNG-U</strong></li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/jng-u">
+                <img src="lib/images/github.svg" alt="GitHub" />
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/jng-u">
+                <img src="lib/images/linkedin.svg" alt="LinkedIn" />
+            </a>
+        </li>
+    </ul>
+    </nav>
+    </div>
+
     <main class="container">
-        <h1>Hello, world!</h1>
+
+    <div class="profile">
+        <div class="thumnail">
+            <img src="contents/about/prf.jpg" 
+                 alt="profile thumbnail"/>
+        </div>
+        <div class="abstract">
+            <h3 class="name">이정우 (JUNGWOO LEE)</h3>
+            <p>
+                M.S Course / Dept. Electrical Engineering<br>
+                Email : ljw69700@gmail.com
+            </p>
+            <strong> Research Interests </strong>
+            <p>
+                Visual SLAM, AR application, 3D reconstruction
+            </p>
+            <strong> Skills </strong>
+            <p>
+                C/C++, Python, Matlab / OpenGL, OpenCV, ROS
+            </p>
+        </div>
+    </div>
+    
+    <h3> Education </h3>
+    <ul class="contents">
+        <li>
+            2023.03. — <br>
+            M.S., Electrical Engineering, Inha University
+        </li>
+        <li>
+            2017.03. — 2023.02. <br>
+            B.S., Information Communication Engineering, Inha University
+        </li>
+        <li>
+            2014.03. — 2017.02. <br>
+            Web Programming, Korea Digital Media High School
+        </li>
+    </ul>
+    
+    <hr>
+    
+    <h3> Expreiences </h3>
+    <ul class="contents">
+        <li>
+            Intern @Solution Team, Hutom
+            <ul>
+                <li>2022.08. — 2023.02.</li>
+                <li>3D medical image processing</li>
+                <li>Python, OpneCV</li>
+            </ul>
+        </li>
+        <li>
+            Undergraduate Research Intern @Urban Robotics Lab, KAIST
+            <ul>
+                <li>2022.01. — 2022.03.</li>
+                <li>Mobile Application for visual inertial SLAM visualization</li>
+                <li>Android, C/C++, OpenGL ES</li>
+            </ul>
+        </li>
+        <li>
+            Software Maestro 12th
+            <ul>
+                <li>2021.04. — 2021.12.</li>
+                <li>AR support look ahead solution using LiDAR, camera sensor</li>
+                <li>C/C++, Vulkan, OpenCV, ROS</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <hr>
+    
+    <h3> Publication </h3>
+    <div class="container">
+        <div class="paper">
+            <div class="thumnail">
+                <a href="https://sites.google.com/view/meshauv/home" target="_blank">
+                    <img src="contents/cv/meshauv.png" 
+                         alt="https://sites.google.com/view/meshauv/home"/>
+                </a>
+            </div>
+            <div class="abstract">
+                <p class="title">
+                    Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle
+                </p>
+                <p class="author">
+                    <u>Jungwoo Lee</u> and Younggun Cho
+                </p>
+                <cite>
+                    IEEE ICRA Workshop on Field Robotics 2024
+                </cite>
+            </div>
+        </div>
+
+        <div class="paper">
+            <div class="thumnail">
+                <a href="https://sites.google.com/view/salient-ground-feature/home" target="_blank">
+                    <img src="contents/cv/sgf.png" 
+                         alt="https://sites.google.com/view/salient-ground-feature/home"/>
+                </a>
+            </div>
+            <div class="abstract">
+                <p class="title">
+                    Salience-guided Ground Factor for Robust Localization of Delivery Robots in Complex Urban Environments
+                </p>
+                <p class="author">
+                    Jooyong Park, <u>Jungwoo Lee</u>, Euncheol Choi and Younggun Cho
+                </p>
+                <cite>
+                    IEEE International Conference on Robotics and Automation (ICRA) 2024
+                </cite>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <div class="grid">
+        <div>
+            <article>
+                <header>
+                    Research Interests
+                </header>
+                <ul class="contents">
+                    <li>
+                        AR application
+                    </li>
+                    <li>
+                        3D reconstruction
+                    </li>
+                    <li>
+                        Visual SLAM
+                    </li>
+                    <li>
+                        Computer Graphics
+                    </li>
+                </ul>
+            </article>
+        </div>
+        <div>
+            <article>
+                <header>
+                    Skills
+                </header>
+                <ul class="contents">
+                    <li>
+                        Languege : C/C++, Python
+                    </li>
+                    <li>
+                        OpenGL, OpenCV, ROS
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </div>
+    
     </main>
 </body>
+
+<style>
+	a {
+		height: 3em;
+	}
+	a:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.25em;
+	}
+	nav a img {
+		width: 2em;
+		height: 2em;
+		object-fit: contain;
+	}
+	a img:hover {
+		filter: 
+			invert(0.2)
+	}
+
+    .name {
+        margin-bottom: 0;
+    }
+    article {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    article header  {
+        margin-bottom: 0;
+        padding-top: calc(var(--spacing));
+        padding-bottom: calc(var(--spacing));
+        color: var(--h3-color);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    article .contents {
+        margin: 0;
+        padding-top: calc(var(--spacing));
+        padding-bottom: calc(var(--spacing));
+    }
+    li {
+        margin-bottom: calc(var(--typography-spacing-vertical) * .5);
+    }
+    ul li ul li {
+        margin-bottom: calc(var(--typography-spacing-vertical) * .25);
+        color: var(--secondary);
+        font-size: calc(var(--font-size) - 1px);
+    }
+
+    .paper {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: 
+            "thumnail abstract abstract abstract";
+        align-items: center; 
+        margin: 0em 0em 2em 0;
+    }
+    .paper .thumnail { 
+        grid-area: thumnail; 
+        margin: 0 0.5em 0 0.5em;
+    }
+    .paper .abstract { 
+        grid-area: abstract; 
+        margin: 0 0.5em 0 0.5em;
+    }
+    .abstract .title { 
+        color: var(--pico-primary);;
+    }
+    .abstract .author { 
+        color: var(--secondary);;
+    }
+    .abstract p { 
+        margin: 0 0 0.5em 0;
+    }
+
+    .profile {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: 
+            "thumnail abstract abstract abstract";
+        margin: 0em 0em 2em 0;
+    }
+    .profile .thumnail { 
+        grid-area: thumnail; 
+        margin: 0 0.5em 0 0.5em;
+    }
+    .profile .abstract { 
+        grid-area: abstract; 
+        margin: 0 0.5em 0 0.5em;
+    }
+</style>
 
 </html>
