@@ -1,0 +1,99 @@
+nav svg {
+    height: 3em;
+    text-decoration: none;
+}
+nav svg:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+}
+nav svg {
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: contain;
+}
+nav svg:hover {
+    filter: 
+        invert(0.4)
+}
+
+.name {
+    margin-bottom: 0;
+}
+article {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+article header  {
+    margin-bottom: 0;
+    padding-top: calc(var(--spacing));
+    padding-bottom: calc(var(--spacing));
+    color: var(--h3-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+article .contents {
+    margin: 0;
+    padding-top: calc(var(--spacing));
+    padding-bottom: calc(var(--spacing));
+}
+li {
+    margin-bottom: calc(var(--typography-spacing-vertical) * .5);
+}
+ul li ul li {
+    margin-bottom: calc(var(--typography-spacing-vertical) * .25);
+    color: var(--secondary);
+    font-size: calc(var(--font-size) - 1px);
+}
+
+.paper {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "thumnail abstract abstract abstract";
+    align-items: center; 
+    margin: 0em 0em 2em 0;
+}
+.paper .thumnail { 
+    grid-area: thumnail; 
+    margin: 0 0.5em 0 0.5em;
+}
+.paper .thumnail:hover { 
+    filter: 
+        invert(0.1)
+}
+.paper .abstract { 
+    grid-area: abstract; 
+    margin: 0 0.5em 0 0.5em;
+}
+.abstract .title { 
+    color: var(--pico-primary);;
+}
+.abstract .author { 
+    color: var(--secondary);;
+    text-underline-offset: 0.25em;
+}
+.abstract p { 
+    margin: 0 0 0.5em 0;
+}
+
+.profile {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "thumnail abstract abstract abstract";
+    margin: 0em 0em 2em 0;
+}
+.profile .thumnail { 
+    grid-area: thumnail; 
+    margin: 0 0.5em 0 0.5em;
+}
+.profile .abstract { 
+    grid-area: abstract; 
+    margin: 0 0.5em 0 0.5em;
+}
