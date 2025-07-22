@@ -1,0 +1,79 @@
+{
+    "profile": {
+        "img": "prf2.jpg",
+        "name": "이정우 (Jungwoo Lee)",
+        "abstract": "Ph.D Course / Electrical and Computer Engineering / Inha University",
+        "research_interests": "Visual SLAM, AR application",
+        "skills": "C/C++, Python, Matlab | OpenGL, OpenCV, ROS",
+        "contact": "ljw69700@gmail.com"
+    },
+    "education": [
+        {
+            "school": "Inha University",
+            "start": "2025.03.",
+            "end": "",
+            "description": "Ph.D. in Electrical and Computer Engineering"
+        },
+        {
+            "school": "Inha University",
+            "start": "2023.03.",
+            "end": "2025.02.",
+            "description": "M.S. in Electrical and Computer Engineering"
+        },
+        {
+            "school": "Inha University",
+            "start": "2017.03.",
+            "end": "2023.02.",
+            "description": "B.S. in Information and Communication Engineering"
+        },
+        {
+            "school": "Korea Digital Media High School",
+            "start": "2014.03.",
+            "end": "2017.02.",
+            "description": "Web Programming"
+        }
+    ],
+    "experiences": [
+        {
+            "job_team": "Intern @Solution Team, Hutom",
+            "start": "2022.08.",
+            "end": "2023.02.",
+            "work": "3D medical image processing",
+            "tools": "Python, OpneCV"
+        },
+        {
+            "job_team": "Undergraduate Research Intern @Urban Robotics Lab, KAIST",
+            "start": "2022.01.",
+            "end": "2022.03.",
+            "work": "Mobile Application for visual inertial SLAM visualization",
+            "tools": "Android, C/C++, OpenGL ES"
+        },
+        {
+            "job_team": "Software Maestro 12th",
+            "start": "2021.04.",
+            "end": "2021.12.",
+            "work": "AR support look ahead solution using LiDAR, camera sensor",
+            "tools": "C/C++, Vulkan, OpenCV, ROS"
+        }
+    ],
+    "talks": [
+        {
+            "date": "2024.11.14.",
+            "where": "IEMEK",
+            "link": "https://iemek.org/main/",
+            "title": "Salience-guided Ground Factor for Robust Localization of Delivery Robots in Complex Urban Environments"
+        }
+    ],
+    "awards": [
+        {
+            "year": "2024",
+            "contest": "Embedded Software Contest",
+            "prize": "1st Prize, 산업통상자원부장관상"
+        },
+        {
+            "year": "2023",
+            "contest": "Industry-Academia Collaboration Challenge",
+            "prize": "Among the top 20 out of 489 teams, 한국산업기술진흥원장상"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+:where(p,ul,ol,dl) {
+    font-size: var(--font-size-1);
+}
+
+.area1 { 
+    grid-area: area1; 
+    margin: 0;
+}
+.area3 { 
+    grid-area: area3; 
+    margin: 0 0.5em 0 0.5em;
+}
+.area4 { 
+    grid-area: area4; 
+    margin: 0 0.5em 0 0.5em;
+}
+
+.area-1-3 {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "area1 area3 area3 area3";
+    align-items: center; 
+}
+.area-1-4 {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+        "area1 area4 area4 area4 area4";
+    align-items: center; 
+}
+
+.color-contrast {
+    color: var(--pico-contrast);
+}
+.color-secondary {
+    color: var(--pico-secondary);
+}

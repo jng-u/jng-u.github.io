@@ -1,0 +1,38 @@
+{
+    "myname": "Jungwoo Lee",
+    "all_pubs": [
+        {
+            "year": 2025,
+            "pubs": [
+
+            ]
+        },
+        {
+            "year": 2024,
+            "pubs": [
+                {
+                    "title": "Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle",
+                    "authors": [
+                        "Jungwoo Lee", 
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE ICRA Workshop on Field Robotics 2024",
+                    "img": "pub/meshauv.png",
+                    "url": "https://sites.google.com/view/meshauv"
+                },
+                {
+                    "title": "Salience-guided Ground Factor for Robust Localization of Delivery Robots in Complex Urban Environments",
+                    "authors": [
+                        "Jooyong Park",
+                        "Jungwoo Lee",
+                        "Euncheol Choi",
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE International Conference on Robotics and Automation (ICRA) 2024",
+                    "img": "pub/sgf.png",
+                    "url": "https://sites.google.com/view/salient-ground-feature"
+                }
+            ]
+        }
+    ]
+}
