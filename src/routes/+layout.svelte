@@ -12,20 +12,18 @@
 	let { children, data } = $props()
 </script>
 
-<div class="container">
-	<Header />
+<Header />
 
-	<main class="container">
-		{@render children?.()}
-	</main>
+<main>
+	{@render children?.()}
+</main>
 
-	<hr>
-	<Footer />
-</div>
+<hr>
+<Footer />
 
 <style>
-	.container main {
-		padding-block: var(--size-9) 0;
+	main {
+		padding-block: var(--size-5) 0;
 	}
 	
 </style>
