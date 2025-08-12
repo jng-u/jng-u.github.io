@@ -19,9 +19,9 @@
 		<li>
 			<a href="/publications" class={(currentPath === "/publications")? "contrast" : "secondary"}>Publications</a>
 		</li>
-		<!-- <li>
+		<li>
 			<a href="/posts" class={(currentPath === "/posts")? "contrast" : "secondary"}>Posts</a>
-		</li> -->
+		</li>
 	</ul>
 
     <ul>

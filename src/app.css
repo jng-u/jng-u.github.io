@@ -1,5 +1,75 @@
-:where(p,ul,ol,dl) {
-    font-size: var(--font-size-1);
+
+:where(table) {
+    width: fit-content;
+    display: block;
+    overflow-x: auto; 
+    /* border-spacing: 1; */
+    border-collapse: separate;
+
+    --nice-inner-radius: calc(var(--radius-2) - 2px);
+    border-radius: var(--radius-2);
+    
+    th, td {
+        padding: 0.5rem
+    }
+}
+
+.article-post {
+    :where(h1, h2, h3, h4, h5, h6, li, p, blockquote, th, td) {
+        max-inline-size: 100%;
+        /* --pico-font-size: 50% */
+    }
+    :where(li, ul, ol, dl, p, blockquote, th, td, code) {
+        font-size: var(--font-size-0);
+        margin-bottom: 0.5rem;
+    }
+    :where(ol,ul) {
+        padding-inline-start: var(--size-4);
+    }
+    :where(blockquote) {
+        padding: 0 var(--pico-spacing);
+    }
+    h1 {
+        --pico-font-size: 1.75rem;
+        --pico-line-height: 1.15;
+        --pico-typography-spacing-top: 2.625rem;
+    }
+    h2 {
+        --pico-font-size: 1.5rem;
+        --pico-line-height: 1.175;
+        --pico-typography-spacing-top: 2.25rem;
+    }
+    h3 {
+        --pico-font-size: 1.25rem;
+        --pico-line-height: 1.2;
+        --pico-typography-spacing-top: 1.874rem;
+    }
+    h4 {
+        --pico-font-size: 1.125rem;
+        --pico-line-height: 1.225;
+        --pico-typography-spacing-top: 1.6875rem;
+    }
+    h5 {
+        --pico-font-size: 1rem;
+        --pico-line-height: 1.25;
+        --pico-typography-spacing-top: 1.5rem;
+    }
+    h6 {
+        --pico-font-size: 1rem;
+        --pico-line-height: 1.25;
+        --pico-typography-spacing-top: 1.5rem;
+    }
+    img { 
+        display: block; 
+        margin-inline: auto; 
+
+        @media (min-width: 768px) {
+            width: 100%;
+        }
+        @media (min-width: 1024px) {
+            width: 60%;
+        }
+    }
 }
 
 .area1 { 
