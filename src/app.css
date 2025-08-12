@@ -1,3 +1,6 @@
+:where(p,ul,ol,dl,th,td) {
+    font-size: var(--font-size-1);
+}
 
 :where(table) {
     width: fit-content;
