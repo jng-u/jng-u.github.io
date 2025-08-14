@@ -1,0 +1,6 @@
+# 모든 검색 로봇에게 모든 페이지의 접근을 허용
+User-agent: *
+Allow: /
+
+# 사이트맵의 위치를 명시
+Sitemap: https://jng-u.github.io/sitemap.xml
