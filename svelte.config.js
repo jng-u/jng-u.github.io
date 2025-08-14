@@ -43,7 +43,7 @@ const mdsvexOptions = {
 			return `{@html \`${html}\` }`;
 		}
 	},
-	remarkPlugins: [remarkMath, remarkAttr],
+	remarkPlugins: [remarkMath],
 	rehypePlugins: [rehypeKatexSvelte, rehypeRewriteImagePath]
 }
 

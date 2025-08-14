@@ -50,6 +50,10 @@
 		.title:hover {
 			text-decoration: underline;
 		}
+
+		h4 {
+			max-inline-size: 100%;
+		}
 	}
 
 	.tag {

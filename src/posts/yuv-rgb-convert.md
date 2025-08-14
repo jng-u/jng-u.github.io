@@ -14,11 +14,13 @@ Android jni를 이용해서 카메라 데이터를 C++ OpenCV로 처리해주는
 
 #### 원래 사용한 방법
 원래는 아래의 코드를 사용해 변환하였다.  
+
 ``` cpp
 cv::Mat mYuv(height + height / 2, width, CV_8UC1, bufferY);
 cv::Mat mRgba(height, width, CV_8UC4);
 cv::cvtColor(mYuv, mRgba, cv::COLOR_YUV2RGBA_NV21);
 ```
+
 [Android Developers](https://developer.android.com/reference/android/graphics/ImageFormat#YUV_420_888)를 보면 안드로이드에서 YUV_420_888로 카메라를 읽었을 때, pixel stride의 기본 값이 1인 것을 알 수 있다.
 <!-- <p>
 <ELink text="Android Developers" to="https://developer.android.com/reference/android/graphics/ImageFormat#YUV_420_888"/>를 보면 안드로이드에서 YUV_420_888로 카메라를 읽었을 때, pixel stride의 기본 값이 1인 것을 알 수 있다.
