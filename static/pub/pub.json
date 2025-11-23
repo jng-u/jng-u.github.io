@@ -5,7 +5,7 @@
             "year": 2025,
             "pubs": [
                 {
-                    "title": "Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle",
+                    "title": "MSG-Loc: Multi-Label Likelihood-based Semantic Graph Matching for Object-Level Global Localization",
                     "authors": [
                         "Gihyeon Lee",
                         "Jungwoo Lee",
