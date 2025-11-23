@@ -4,22 +4,36 @@
         {
             "year": 2025,
             "pubs": [
-
+                {
+                    "title": "Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle",
+                    "authors": [
+                        "Gihyeon Lee",
+                        "Jungwoo Lee",
+                        "Juwon Kim",
+                        "Young-Sik Shin",
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE Robotics and Automation Letters (RAL) 2025",
+                    "img": "pub/msg-loc.png",
+                    "url": "https://sparolab.github.io/research/msg-loc/"
+                },
+                {
+                    "title": "RA-LLO: Robust Adaptive Legged-LiDAR Odometry with Gaussian Process Motion Prior",
+                    "authors": [
+                        "Juwon Kim",
+                        "Jungwoo Lee", 
+                        "Geonmo Yang", 
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE International Conference on Control, Automation, and Systems (ICCAS) 2025 ",
+                    "img": "pub/ra-llo.png",
+                    "url": "https://github.com/U-AMC/RA-LLO"
+                }
             ]
         },
         {
             "year": 2024,
             "pubs": [
-                {
-                    "title": "Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle",
-                    "authors": [
-                        "Jungwoo Lee", 
-                        "Younggun Cho"
-                    ],
-                    "journal": "IEEE ICRA Workshop on Field Robotics 2024",
-                    "img": "pub/meshauv.png",
-                    "url": "https://sites.google.com/view/meshauv"
-                },
                 {
                     "title": "Salience-guided Ground Factor for Robust Localization of Delivery Robots in Complex Urban Environments",
                     "authors": [
@@ -30,7 +44,17 @@
                     ],
                     "journal": "IEEE International Conference on Robotics and Automation (ICRA) 2024",
                     "img": "pub/sgf.png",
-                    "url": "https://sites.google.com/view/salient-ground-feature"
+                    "url": "https://sparolab.github.io/research/salient-ground-feature/"
+                },
+                {
+                    "title": "Mesh-based Photorealistic and Real-time 3D Mapping for Robust Visual Perception of Autonomous Underwater Vehicle",
+                    "authors": [
+                        "Jungwoo Lee", 
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE ICRA Workshop on Field Robotics 2024",
+                    "img": "pub/meshauv.png",
+                    "url": "https://sites.google.com/view/meshauv"
                 }
             ]
         }
