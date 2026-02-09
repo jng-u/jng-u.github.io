@@ -3,7 +3,7 @@
         "img": "prf2.jpg",
         "name": "이정우 (Jungwoo Lee)",
         "abstract": "Ph.D Course / Electrical and Computer Engineering / Inha University",
-        "research_interests": "Visual SLAM, AR application",
+        "research_interests": "Visual SLAM, Sensor Fusion",
         "skills": "C/C++, Python, Matlab | OpenGL, OpenCV, ROS",
         "contact": "ljw69700@gmail.com"
     },
@@ -12,13 +12,13 @@
             "school": "Inha University",
             "start": "2025.03.",
             "end": "",
-            "description": "Ph.D. in Electrical and Computer Engineering"
+            "description": "Ph.D. in Electrical and Computer Engineering @Spatial AI and Robotics Lab"
         },
         {
             "school": "Inha University",
             "start": "2023.03.",
             "end": "2025.02.",
-            "description": "M.S. in Electrical and Computer Engineering"
+            "description": "M.S. in Electrical and Computer Engineering @Spatial AI and Robotics Lab"
         },
         {
             "school": "Inha University",
