@@ -18,7 +18,7 @@
                     "url": "https://sparolab.github.io/research/msg-loc/"
                 },
                 {
-                    "title": "RA-LLO: Robust Adaptive Legged-LiDAR Odometry with Gaussian Process Motion Prior",
+                    "title": "Ra-Llo: Robust Adaptive Legged-Lidar Odometry With Gaussian Process Motion Prior Over Error States",
                     "authors": [
                         "Juwon Kim",
                         "Jungwoo Lee", 

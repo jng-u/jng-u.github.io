@@ -2,7 +2,7 @@ import type { Post } from '$lib/types';
 import { getPosts } from '$lib/server/posts';
 import { resolve } from '$app/paths';
 
-const siteOrigin = 'https://jng-u.github.io';
+const siteOrigin = 'https://jngu.io';
 export const prerender = true;
 
 export async function GET() {
