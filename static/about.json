@@ -67,8 +67,8 @@
     "awards": [
         {
             "year": "2026",
-            "contest": "Embedded Software Contest",
-            "prize": "1st Prize, 산업통상자원부장관상"
+            "contest": "Hilti x Trimble SLAM Challenge at ICRA 2026",
+            "prize": "2nd Place in the SLAM Category"
         },
         {
             "year": "2024",
@@ -76,9 +76,9 @@
             "prize": "1st Prize, 산업통상자원부장관상"
         },
         {
-            "year": "2026",
-            "contest": "Hilti x Trimble SLAM Challenge at ICRA 2026",
-            "prize": "2nd Place in the SLAM Category"
+            "year": "2023",
+            "contest": "Industry-Academia Collaboration Challenge",
+            "prize": "Among the top 20 out of 489 teams, 한국산업기술진흥원장상"
         }
     ]
 }
