@@ -39,7 +39,7 @@
             "start": "2022.08.",
             "end": "2023.02.",
             "work": "3D medical image processing",
-            "tools": "Python, OpneCV"
+            "tools": "Python, OpenCV"
         },
         {
             "job_team": "Undergraduate Research Intern @Urban Robotics Lab, KAIST",
@@ -66,14 +66,19 @@
     ],
     "awards": [
         {
+            "year": "2026",
+            "contest": "Embedded Software Contest",
+            "prize": "1st Prize, 산업통상자원부장관상"
+        },
+        {
             "year": "2024",
             "contest": "Embedded Software Contest",
             "prize": "1st Prize, 산업통상자원부장관상"
         },
         {
-            "year": "2023",
-            "contest": "Industry-Academia Collaboration Challenge",
-            "prize": "Among the top 20 out of 489 teams, 한국산업기술진흥원장상"
+            "year": "2026",
+            "contest": "Hilti x Trimble SLAM Challenge at ICRA 2026",
+            "prize": "2nd Place in the SLAM Category"
         }
     ]
 }
