@@ -115,6 +115,61 @@ export function isMarkdownPath(path: string): boolean {
 	return MARKDOWN_EXTENSION.test(path);
 }
 
+/** Converts LaTeX-style math delimiters without touching fenced or inline code. */
+export function normalizeMathDelimiters(markdown: string): string {
+	const lines = markdown.split(/(?<=\n)/);
+	let fence: { character: '`' | '~'; length: number } | null = null;
+	let inlineTicks = 0;
+
+	return lines
+		.map((line) => {
+			const fenceMatch = /^(?: {0,3})(`{3,}|~{3,})/.exec(line);
+			if (fenceMatch) {
+				const marker = fenceMatch[1];
+				if (!marker) return line;
+				const character = marker[0] as '`' | '~';
+				if (!fence && inlineTicks === 0) fence = { character, length: marker.length };
+				else if (fence && fence.character === character && marker.length >= fence.length) {
+					fence = null;
+				}
+				return line;
+			}
+			if (fence) return line;
+
+			let result = '';
+			for (let index = 0; index < line.length; ) {
+				if (line[index] === '`') {
+					let end = index + 1;
+					while (line[end] === '`') end += 1;
+					const length = end - index;
+					if (inlineTicks === 0) inlineTicks = length;
+					else if (inlineTicks === length) inlineTicks = 0;
+					result += line.slice(index, end);
+					index = end;
+					continue;
+				}
+
+				if (inlineTicks === 0 && line[index] === '\\') {
+					let end = index + 1;
+					while (line[end] === '\\') end += 1;
+					const slashCount = end - index;
+					const delimiter = line[end];
+					if (slashCount % 2 === 1 && delimiter && '()[]'.includes(delimiter)) {
+						result += '\\'.repeat(slashCount - 1);
+						result += delimiter === '(' || delimiter === ')' ? '$' : '$$';
+						index = end + 1;
+						continue;
+					}
+				}
+
+				result += line[index];
+				index += 1;
+			}
+			return result;
+		})
+		.join('');
+}
+
 export function normalizePath(basePath: string, reference: string): string | undefined {
 	let decoded: string;
 	try {
@@ -150,7 +205,7 @@ export async function renderMarkdown(
 		import('remark-math'),
 		import('rehype-katex-svelte')
 	]);
-	const result = await compile(source, {
+	const result = await compile(normalizeMathDelimiters(source), {
 		filename: path,
 		extensions: ['.md', '.markdown'],
 		highlight: false,
