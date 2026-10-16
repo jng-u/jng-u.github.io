@@ -39,7 +39,7 @@
             "start": "2022.08.",
             "end": "2023.02.",
             "work": "3D medical image processing",
-            "tools": "Python, OpneCV"
+            "tools": "Python, OpenCV"
         },
         {
             "job_team": "Undergraduate Research Intern @Urban Robotics Lab, KAIST",
@@ -65,6 +65,11 @@
         }
     ],
     "awards": [
+        {
+            "year": "2026",
+            "contest": "Hilti x Trimble SLAM Challenge at ICRA 2026",
+            "prize": "2nd Place in the SLAM Category"
+        },
         {
             "year": "2024",
             "contest": "Embedded Software Contest",

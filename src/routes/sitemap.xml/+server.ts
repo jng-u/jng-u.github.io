@@ -1,4 +1,3 @@
-import type { Post } from '$lib/types';
 import { getPosts } from '$lib/server/posts';
 import { resolve } from '$app/paths';
 
@@ -28,7 +27,7 @@ export async function GET() {
   </url>
 
   ${posts.map(post => `
-  <url><loc>${prefix}${resolve('/posts/' + post.slug)}</loc><lastmod>${new Date(post.date).toISOString()}</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>`).join('')}
+  <url><loc>${prefix}${resolve('/posts/[slug]', { slug: post.slug })}</loc><lastmod>${new Date(post.date).toISOString()}</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>`).join('')}
 </urlset>`;
 
   return new Response(body, {
