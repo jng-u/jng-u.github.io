@@ -2,6 +2,23 @@
     "myname": "Jungwoo Lee",
     "all_pubs": [
         {
+            "year": 2026,
+            "pubs": [
+                {
+                    "title": "RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios",
+                    "authors": [
+                        "Hogyun Kim",
+                        "Jiwon Choi",
+                        "Jungwoo Lee",
+                        "Younggun Cho"
+                    ],
+                    "journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026",
+                    "img": "pub/radloc.gif",
+                    "url": "https://sparolab.github.io/research/radloc/"
+                }
+            ]
+        },
+        {
             "year": 2025,
             "pubs": [
                 {
