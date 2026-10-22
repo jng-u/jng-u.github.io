@@ -1,0 +1,45 @@
+{
+	"sequence": "EuRoC MH_01_easy",
+	"maps": [
+		{
+			"id": "sqrt-vins",
+			"name": "SQRT-VINS",
+			"variant": "FF dense metric map",
+			"file": "sqrt-vins.ply",
+			"accent": "#f6c453",
+			"points": 180000,
+			"sourcePoints": 200000,
+			"extentMeters": [19.21, 22.1, 7.08]
+		},
+		{
+			"id": "foundation-no-loop",
+			"name": "FoundationVIO",
+			"variant": "Loop closure off \u00b7 18:05:15",
+			"file": "foundation-no-loop.ply",
+			"accent": "#7dd3fc",
+			"points": 180000,
+			"sourcePoints": 5559905,
+			"extentMeters": [15.63, 13.98, 6.32]
+		},
+		{
+			"id": "foundation-loop",
+			"name": "FoundationVIO",
+			"variant": "Loop closure on \u00b7 18:08:49",
+			"file": "foundation-loop.ply",
+			"accent": "#a7f3d0",
+			"points": 180000,
+			"sourcePoints": 5707165,
+			"extentMeters": [15.25, 14.3, 5.68]
+		},
+		{
+			"id": "davio",
+			"name": "DAVIO",
+			"variant": "Final active map",
+			"file": "davio.ply",
+			"accent": "#f0abfc",
+			"points": 180000,
+			"sourcePoints": 196318,
+			"extentMeters": [8.36, 9.69, 3.09]
+		}
+	]
+}
